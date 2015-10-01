@@ -1,10 +1,10 @@
 <?php
-// Création schema vierge
+// Création schéma vierge
 echo "php app/console doctrine:schema:create<br/>";
 $output = shell_exec('php app/console doctrine:schema:create');
 echo "<pre>$output</pre>";
 
-// Creation base de données 
+// Création base de données 
 echo "php app/console doctrine:database:create<br/>";
 $output = shell_exec('php app/console doctrine:database:create');
 echo "<pre>$output</pre>";
